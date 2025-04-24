@@ -57,10 +57,11 @@ sections:
       - type: FeaturedItem
         title: End-to-End Expertise
         subtitle: Numbers Done
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >+
+          From concept to completion, Ires Arabia offers integrated solutions
+          covering every stage of construction, design, and engineering—with a
+          single point of accountability.
+
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
