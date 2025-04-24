@@ -87,11 +87,10 @@ sections:
               borderRadius: x-large
       - title: Structural Works
         subtitle: ''
-        text: >+
-          Our projects are led by certified engineers and architects, combining
-          technical excellence with innovative approaches to deliver superior
-          results.
+        text: >
 
+          We build robust structures with concrete skeletons, ensuring safety
+          and durability in every
         image:
           url: /images/icon2.svg
           altText: Featured icon two
