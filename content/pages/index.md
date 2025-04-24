@@ -17,7 +17,7 @@ sections:
       handover. Our expertise ensures that your projects are completed on time,
       within budget, and to the highest standards.
     actions:
-      - label: See Tutorials
+      - label: Get started today
         altText: ''
         url: /
         showIcon: true
