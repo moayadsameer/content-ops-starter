@@ -59,11 +59,10 @@ sections:
       - type: FeaturedItem
         title: Pre-Construction Services
         subtitle: ''
-        text: >+
-          From concept to completion, Ires Arabia offers integrated solutions
-          covering every stage of construction, design, and engineering—with a
-          single point of accountability.
+        text: >
 
+          Our pre-construction phase ensures that all design, approvals, and
+          budgeting are handled efficiently for a smooth project initiation.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
