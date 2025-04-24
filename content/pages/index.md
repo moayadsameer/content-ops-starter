@@ -110,29 +110,6 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: MEP Installations
-        subtitle: ''
-        text: >
-
-          Our mechanical, electrical, and plumbing installations ensure your
-          buildings function optimally with comfort and efficiency.
-        image:
-          url: /images/icon3.svg
-          altText: Featured icon three
-          elementId: ''
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-        type: FeaturedItem
       - type: FeaturedItem
         title: Structural Works
         subtitle: ''
@@ -158,6 +135,29 @@ sections:
             flexDirection: row
             textAlign: left
             justifyContent: center
+      - title: MEP Installations
+        subtitle: ''
+        text: >
+
+          Our mechanical, electrical, and plumbing installations ensure your
+          buildings function optimally with comfort and efficiency.
+        image:
+          url: /images/icon3.svg
+          altText: Featured icon three
+          elementId: ''
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+        type: FeaturedItem
     actions:
       - label: Book Now
         altText: ''
