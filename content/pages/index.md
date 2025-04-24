@@ -134,7 +134,7 @@ sections:
             flexDirection: row
         type: FeaturedItem
       - type: FeaturedItem
-        title: Structural Works
+        title: Interior Finishing
         subtitle: ''
         text: >
 
