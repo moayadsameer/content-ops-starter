@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       text: Building Your Dreams from Ground Up
-      color: text-light
+      color: text-dark
       type: TitleBlock
     subtitle: ''
     text: >
