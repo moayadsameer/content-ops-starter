@@ -138,8 +138,8 @@ sections:
         subtitle: ''
         text: >
 
-          We build robust structures with concrete skeletons, ensuring safety
-          and durability in every
+          We provide exquisite interior finishing services, transforming spaces
+          with plastering, flooring, and painting expertise.
         image:
           type: ImageBlock
           url: /images/icon2.svg
