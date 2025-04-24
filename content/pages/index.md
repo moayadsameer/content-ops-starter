@@ -4,9 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: >-
-        Trusted partner for residential, commercial, and industrial construction
-        projects across the UAE.
+      text: Building Your Dreams from Ground Up
       color: text-dark
       type: TitleBlock
     subtitle: ''
