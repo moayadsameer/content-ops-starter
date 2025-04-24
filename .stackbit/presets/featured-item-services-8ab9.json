@@ -1,0 +1,51 @@
+{
+    "model": "FeaturedItem",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "services",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "services"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Structural Works",
+                "tagline": null,
+                "subtitle": "",
+                "text": "\nWe build robust structures with concrete skeletons, ensuring safety and durability in every\n",
+                "image": {
+                    "$$type": "ImageBlock",
+                    "url": {
+                        "$$ref": "stackbit_asset_id:static:public/images/icon2.svg",
+                        "$$type": "__asset_model"
+                    },
+                    "altText": "Featured icon two",
+                    "elementId": "",
+                    "styles": null
+                },
+                "actions": [],
+                "elementId": null,
+                "colors": "bg-neutralAlt-fg-dark",
+                "styles": {
+                    "self": {
+                        "padding": [
+                            "pt-8",
+                            "pl-8",
+                            "pb-8",
+                            "pr-8"
+                        ],
+                        "borderRadius": "x-large",
+                        "flexDirection": "row",
+                        "textAlign": "left",
+                        "justifyContent": "center"
+                    }
+                }
+            },
+            "thumbnail": "images/featured-item-services-8ab9.png"
+        }
+    ]
+}
