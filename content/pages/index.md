@@ -30,7 +30,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: Building Dreams with Excellence
+      label: Building the Future with Precision
       color: text-primary
       type: Badge
     elementId: ''
