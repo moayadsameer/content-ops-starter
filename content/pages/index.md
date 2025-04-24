@@ -139,8 +139,8 @@ sections:
         subtitle: ''
         text: >
 
-          We provide exquisite interior finishing services, transforming spaces
-          with plastering, flooring, and painting expertise.
+          Our mechanical, electrical, and plumbing installations ensure your
+          buildings function optimally with comfort and efficiency.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
