@@ -135,7 +135,7 @@ sections:
             flexDirection: row
             textAlign: left
             justifyContent: center
-      - title: Interior Finishing
+      - title: MEP Installations
         subtitle: Faster
         text: >
 
