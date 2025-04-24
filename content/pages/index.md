@@ -27,7 +27,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: Building the Future with Precision
+      label: ''
       color: text-primary
       type: Badge
     elementId: ''
