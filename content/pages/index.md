@@ -52,7 +52,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Why ires Arabia
     items:
       - type: FeaturedItem
         title: 500k
