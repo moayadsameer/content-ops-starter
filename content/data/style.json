@@ -15,7 +15,7 @@
         "type": "ThemeStyleHeading"
     },
     "h2": {
-        "size": "5xl",
+        "size": "2xl",
         "weight": "normal",
         "decoration": "none",
         "case": "none",
