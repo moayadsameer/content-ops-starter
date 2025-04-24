@@ -6,10 +6,10 @@ sections:
     title:
       text: >-
         We are a multidisciplinary construction company with a vision to
-        transform ideas into remarkable spaces. Based in the region and backed
-        by a team of certified engineers, architects, and specialists, Ires
-        Arabia delivers end-to-end construction and design solutions with
-        uncompromised quality and precision
+        transform ideas into remarkable spaces.backed by a team of certified
+        engineers, architects, and specialists, Ires Arabia delivers end-to-end
+        construction and design solutions with uncompromised quality and
+        precision
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
