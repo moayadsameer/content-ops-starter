@@ -110,7 +110,7 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: Built for the Region
+      - title: Interior Finishing
         subtitle: Faster
         text: >+
           With deep roots in the Gulf and Levant, we understand local building
