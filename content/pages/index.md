@@ -26,7 +26,7 @@ sections:
         type: Link
     media:
       url: '/images/ChatGPT Image Apr 24, 2025, 01_43_50 PM.png'
-      altText: Unblock your team boost your time to production preview
+      altText: aaaa
       elementId: ''
       type: ImageBlock
     badge:
