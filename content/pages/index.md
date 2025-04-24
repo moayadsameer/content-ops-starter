@@ -136,7 +136,7 @@ sections:
             textAlign: left
             justifyContent: center
       - title: MEP Installations
-        subtitle: Faster
+        subtitle: ''
         text: >
 
           We provide exquisite interior finishing services, transforming spaces
