@@ -282,7 +282,7 @@ sections:
       loop: true
       muted: true
     badge:
-      label: Key Benefits
+      label: Your Trusted Partner in Construction
       color: text-primary
       styles:
         self:
