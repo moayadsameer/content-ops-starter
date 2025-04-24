@@ -112,10 +112,11 @@ sections:
         type: FeaturedItem
       - title: Built for the Region
         subtitle: Faster
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >+
+          With deep roots in the Gulf and Levant, we understand local building
+          codes, climate conditions, and cultural aesthetics—ensuring projects
+          are relevant, resilient, and refined
+
         image:
           url: /images/icon3.svg
           altText: Featured icon three
