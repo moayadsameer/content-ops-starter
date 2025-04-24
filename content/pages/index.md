@@ -57,7 +57,7 @@ sections:
     subtitle: Why ires Arabia
     items:
       - type: FeaturedItem
-        title: End-to-End Expertise
+        title: Pre-Construction Services
         subtitle: ''
         text: >+
           From concept to completion, Ires Arabia offers integrated solutions
