@@ -56,7 +56,7 @@ sections:
     items:
       - type: FeaturedItem
         title: End-to-End Expertise
-        subtitle: Numbers Done
+        subtitle: ''
         text: >+
           From concept to completion, Ires Arabia offers integrated solutions
           covering every stage of construction, design, and engineering—with a
