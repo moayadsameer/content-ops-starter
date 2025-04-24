@@ -112,11 +112,10 @@ sections:
         type: FeaturedItem
       - title: Interior Finishing
         subtitle: Faster
-        text: >+
-          With deep roots in the Gulf and Levant, we understand local building
-          codes, climate conditions, and cultural aesthetics—ensuring projects
-          are relevant, resilient, and refined
+        text: >
 
+          We provide exquisite interior finishing services, transforming spaces
+          with plastering, flooring, and painting expertise.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
