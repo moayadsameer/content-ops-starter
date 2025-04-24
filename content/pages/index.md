@@ -7,11 +7,7 @@ sections:
       text: Building Your Dreams from Ground Up
       color: text-dark
       type: TitleBlock
-    subtitle: >-
-      We are a leading construction and maintenance company in Jordan and the
-      UAE, specializing in comprehensive services from pre-construction to final
-      handover. Our expertise ensures that your projects are completed on time,
-      within budget, and to the highest standards.
+    subtitle: ''
     text: ''
     actions:
       - label: See Tutorials
