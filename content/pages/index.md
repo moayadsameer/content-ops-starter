@@ -256,11 +256,13 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: Your Trusted Partner in Construction
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+
+      Founded in the heart of the Middle East, our Construction and Maintenance
+      Company has been dedicated to building high-quality structures and
+      enduring relationships. With a focus on integrity, quality, and
+      innovation, we pride ourselves on delivering exceptional construction
+      solutions tailored to the unique needs of our clients.
     media:
       title: Title of the video
       url: /images/placeholder-video.mp4
