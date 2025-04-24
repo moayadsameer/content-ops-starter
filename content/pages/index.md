@@ -7,6 +7,9 @@ sections:
       text: Building Your Dreams from Ground Up
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          fontWeight: 500
     subtitle: ''
     text: >
       We are a leading construction and maintenance company in Jordan and the
