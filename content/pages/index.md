@@ -85,7 +85,7 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: Certified Quality & Innovation
+      - title: Structural Works
         subtitle: ''
         text: >+
           Our projects are led by certified engineers and architects, combining
