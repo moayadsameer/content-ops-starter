@@ -273,8 +273,9 @@ sections:
       type: TitleBlock
     subtitle: Be in good company
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      We manage every phase of your project with expertise — from design
+      approvals to final handover. Our team ensures clear communication, strict
+      timelines, and a commitment to delivering quality without compromise.
     actions:
       - label: Get started
         url: /
