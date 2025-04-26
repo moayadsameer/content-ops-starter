@@ -519,7 +519,8 @@ sections:
         tagline: Plan with Precision
         subtitle: From blueprint to build
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+
+          Collaborative design and engineering expertise for every vision.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
