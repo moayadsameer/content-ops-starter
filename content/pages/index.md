@@ -268,7 +268,7 @@ sections:
         textAlign: center
     type: GenericSection
   - title:
-      text: Business Consulting
+      text: Project Management & Execution
       color: text-dark
       type: TitleBlock
     subtitle: 'Built on Precision, Powered by Trust'
