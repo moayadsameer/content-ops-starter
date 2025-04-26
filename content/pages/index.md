@@ -542,8 +542,13 @@ sections:
       - title: Construction Execution
         tagline: This is the tagline
         subtitle: Building excellence
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+        text: |+
+          | Reliable teams delivering projects on time, every time. |
+          | ------------------------------------------------------- |
+
+          |   |
+          | - |
+
         image:
           url: /images/abstract-feature2.svg
           altText: Placeholder image
