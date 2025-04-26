@@ -27,7 +27,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: '/images/ChatGPT Image Apr 24, 2025, 01_43_50 PM.png'
+      url: '/images/ChatGPT Image Apr 26, 2025, 12_43_18 PM.png'
       altText: aaaa
       elementId: ''
       type: ImageBlock
