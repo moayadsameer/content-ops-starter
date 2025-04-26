@@ -564,7 +564,7 @@ sections:
         type: FeaturedItem
       - title: Quality Control & Safety
         tagline: This is the tagline
-        subtitle: This is the item subtitle
+        subtitle: Inspections and handovers
         text: >
           Learn from the tutorial and build your first awesome Netlify Create
           site.
