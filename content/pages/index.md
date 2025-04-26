@@ -542,13 +542,8 @@ sections:
       - title: Construction Execution
         tagline: This is the tagline
         subtitle: Building excellence
-        text: |+
-          | Reliable teams delivering projects on time, every time. |
-          | ------------------------------------------------------- |
-
-          |   |
-          | - |
-
+        text: |
+          Reliable teams delivering projects on time, every time.
         image:
           url: /images/abstract-feature2.svg
           altText: Placeholder image
