@@ -8,7 +8,7 @@ excerpt: >-
   Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem
   pellentesque fermentum. Sed in facilisis dui.
 featuredImage:
-  url: '/images/cropped-ChatGPT Image Apr 26, 2025, 03_05_37 PM.png'
+  url: '/images/cropped-ChatGPT Image Apr 26, 2025, 03_05_37 PM (2).png'
   altText: Case study 3
   styles:
     self:
