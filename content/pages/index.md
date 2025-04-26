@@ -218,7 +218,7 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: On Time. On Budget. Built to Last
+      text: On Time. On Budget. Built to Last.
       color: text-dark
       styles:
         self:
