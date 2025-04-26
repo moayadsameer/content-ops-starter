@@ -680,11 +680,12 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Get in Touch with Our Construction Experts
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+
+      Whether you have a detailed project in mind or just need professional
+      advice, we're here to help. Reach out today to discuss your vision,
+      request a quote, or learn more about how we can bring your ideas to life.
+      Our team is ready to deliver exceptional solutions tailored to your needs.
     media:
       fields:
         - name: name
