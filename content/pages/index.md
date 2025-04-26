@@ -541,7 +541,7 @@ sections:
         type: FeaturedItem
       - title: Construction Execution
         tagline: This is the tagline
-        subtitle: This is the item subtitle
+        subtitle: Building excellence
         text: |
           Follow the tutorial to build your first awesome Netlify Create site.
         image:
