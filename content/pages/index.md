@@ -283,7 +283,7 @@ sections:
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
+      - label: Explore Our Services
         url: /
         showIcon: true
         icon: arrowRight
