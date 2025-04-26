@@ -517,7 +517,7 @@ sections:
     items:
       - title: Design & Engineering
         tagline: Plan with Precision
-        subtitle: This is the item subtitle
+        subtitle: From blueprint to build
         text: |
           Follow the tutorial to build your first Netlify Create site.
         image:
