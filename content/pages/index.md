@@ -565,9 +565,9 @@ sections:
       - title: Quality Control & Safety
         tagline: This is the tagline
         subtitle: Inspections and handovers
-        text: >
-          Learn from the tutorial and build your first awesome Netlify Create
-          site.
+        text: |
+
+          Ensuring every detail meets the highest safety and quality standards.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder image
