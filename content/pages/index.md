@@ -224,7 +224,7 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Your Trusted Partner in Construction
+    subtitle: Building Landmarks That Last Generations
     text: >
 
       Founded in the heart of the Middle East, our Construction and Maintenance
