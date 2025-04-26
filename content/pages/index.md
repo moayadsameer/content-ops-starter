@@ -291,7 +291,7 @@ sections:
         style: primary
         type: Link
     media:
-      url: '/images/ChatGPT Image Apr 26, 2025, 03_54_08 PM.png'
+      url: /images/Collaborating on Architectural Designs.png
       altText: Dope design preview
       type: ImageBlock
     badge:
