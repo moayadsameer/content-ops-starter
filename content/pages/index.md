@@ -277,7 +277,7 @@ sections:
       approvals to final handover. Our team ensures clear communication, strict
       timelines, and a commitment to delivering quality without compromise.
     actions:
-      - label: Get started
+      - label: Start Your Project
         url: /
         icon: arrowRight
         iconPosition: right
