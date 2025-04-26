@@ -271,7 +271,7 @@ sections:
       text: Business Consulting
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
+    subtitle: 'Built on Precision, Powered by Trust'
     text: >
       We manage every phase of your project with expertise — from design
       approvals to final handover. Our team ensures clear communication, strict
