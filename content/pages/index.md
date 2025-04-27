@@ -419,6 +419,10 @@ sections:
       request a quote, or learn more about how we can bring your ideas to life.
       Our team is ready to deliver exceptional solutions tailored to your needs.
     media:
+      formName: contact
+      formMethod: POST
+      formAction: ''
+      formEncodingType: application/x-www-form-urlencoded
       fields:
         - name: name
           label: Name
@@ -441,19 +445,19 @@ sections:
           width: full
           type: TextareaFormControl
           isRequired: true
-      elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-6
-            - pb-6
-            - pl-6
-            - pr-6
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: FormBlock
+    elementId: contact-form
+    styles:
+      self:
+        padding:
+          - pt-6
+          - pb-6
+          - pl-6
+          - pr-6
+        borderColor: border-dark
+        borderStyle: solid
+        borderWidth: 1
+        borderRadius: large
+    type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
         label: Submit
