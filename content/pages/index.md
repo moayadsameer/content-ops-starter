@@ -563,7 +563,7 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: Quality Control & Safety
-        tagline: This is the tagline
+        tagline: Deliver with Excellence
         subtitle: Inspections and handovers
         text: |
 
