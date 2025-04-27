@@ -540,7 +540,7 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: Construction Execution
-        tagline: This is the tagline
+        tagline: Build with Confidence
         subtitle: Building excellence
         text: |
           Reliable teams delivering projects on time, every time.
