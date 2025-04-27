@@ -48,7 +48,7 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benhhefits
+      text: Key Benefits
       color: text-dark
       styles:
         self:
