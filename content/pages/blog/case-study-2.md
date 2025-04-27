@@ -1,5 +1,5 @@
 ---
-title: Case study 2
+title: MEP Installations
 slug: case-study-2
 date: '2022-02-16'
 excerpt: >-
@@ -8,7 +8,7 @@ excerpt: >-
   Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem
   pellentesque fermentum. Sed in facilisis dui.
 featuredImage:
-  url: /images/img-placeholder.svg
+  url: '/images/ChatGPT Image Apr 26, 2025, 01_18_12 PM.png'
   altText: Case study 2
   styles:
     self:
