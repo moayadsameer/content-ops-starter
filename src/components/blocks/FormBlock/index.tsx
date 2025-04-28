@@ -31,8 +31,8 @@ export default function FormBlock(props) {
                     : undefined,
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
             )}
-            name={elementId}
-            id={elementId}
+            name="contact"           
+            id="contact"           
             ref={formRef}
             data-sb-field-path={fieldPath}
             method="POST"
@@ -42,7 +42,7 @@ export default function FormBlock(props) {
                 className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
                 {...(fieldPath && { 'data-sb-field-path': '.fields' })}
             >
-                <input type="hidden" name="form-name" value={elementId} />
+                <input type="hidden" name="form-name" value="contact" /> 
                 {fields.map((field, index) => {
                     const modelName = field.__metadata.modelName;
                     if (!modelName) {
