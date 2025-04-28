@@ -441,7 +441,7 @@ sections:
           width: full
           type: TextareaFormControl
           isRequired: true
-      elementId: contact
+      elementId: contact-form
       styles:
         self:
           padding:

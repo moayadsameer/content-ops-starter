@@ -7,10 +7,32 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 
 export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
+    const [isSubmitted, setIsSubmitted] = React.useState(false);
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
 
     if (fields.length === 0) {
         return null;
+    }
+
+    function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+        event.preventDefault();
+
+        const form = event.currentTarget;
+        const formData = new FormData(form);
+
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(formData as any).toString()
+        })
+            .then((response) => {
+                if (response.ok) {
+                    setIsSubmitted(true);
+                } else {
+                    alert('Form submission failed: ' + response.statusText);
+                }
+            })
+            .catch((error) => alert('Form submission error: ' + error));
     }
 
     return (
@@ -31,18 +53,23 @@ export default function FormBlock(props) {
                     : undefined,
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
             )}
-            name="contact"           
-            id="contact"           
+            name={elementId}
+            id={elementId}
             ref={formRef}
             data-sb-field-path={fieldPath}
             method="POST"
             data-netlify="true"
+            netlify-honeypot="bot-field"
+            onSubmit={handleSubmit}
         >
+            <input type="hidden" name="form-name" value={elementId} />
+            <p hidden>
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
             <div
                 className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
                 {...(fieldPath && { 'data-sb-field-path': '.fields' })}
             >
-                <input type="hidden" name="form-name" value="contact" /> 
                 {fields.map((field, index) => {
                     const modelName = field.__metadata.modelName;
                     if (!modelName) {
@@ -56,8 +83,13 @@ export default function FormBlock(props) {
                 })}
             </div>
             {submitButton && (
-                <div className={classNames('mt-8', 'flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}>
+                <div className={classNames('mt-8', 'flex', 'flex-col', 'items-center', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}>
                     <SubmitButtonFormControl {...submitButton} {...(fieldPath && { 'data-sb-field-path': '.submitButton' })} />
+                    {isSubmitted && (
+                        <p className="mt-4 text-green-600 text-center">
+                            Thank you! Your message has been sent.
+                        </p>
+                    )}
                 </div>
             )}
         </form>
