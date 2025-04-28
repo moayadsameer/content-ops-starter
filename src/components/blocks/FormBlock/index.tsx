@@ -1,4 +1,4 @@
-import * as React from 'react';
+﻿import * as React from 'react';
 import classNames from 'classnames';
 
 import { getComponent } from '../../components-registry';
@@ -13,14 +13,6 @@ export default function FormBlock(props) {
         return null;
     }
 
-    function handleSubmit(event) {
-        event.preventDefault();
-
-        const data = new FormData(formRef.current);
-        const value = Object.fromEntries(data.entries());
-        alert(`Form data: ${JSON.stringify(value)}`);
-    }
-
     return (
         <form
             className={classNames(
@@ -32,18 +24,19 @@ export default function FormBlock(props) {
                 styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : undefined,
                 styles?.self?.borderWidth && styles?.self?.borderWidth !== 0 && styles?.self?.borderStyle !== 'none'
                     ? mapStyles({
-                          borderWidth: styles?.self?.borderWidth,
-                          borderStyle: styles?.self?.borderStyle,
-                          borderColor: styles?.self?.borderColor ?? 'border-primary'
-                      })
+                        borderWidth: styles?.self?.borderWidth,
+                        borderStyle: styles?.self?.borderStyle,
+                        borderColor: styles?.self?.borderColor ?? 'border-primary'
+                    })
                     : undefined,
                 styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
             )}
             name={elementId}
             id={elementId}
-            onSubmit={handleSubmit}
             ref={formRef}
-            data-sb-field-path= {fieldPath}
+            data-sb-field-path={fieldPath}
+            method="POST"
+            data-netlify="true"
         >
             <div
                 className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
