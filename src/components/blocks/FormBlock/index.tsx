@@ -14,27 +14,6 @@ export default function FormBlock(props) {
         return null;
     }
 
-    function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-        event.preventDefault();
-
-        const form = event.currentTarget;
-        const formData = new FormData(form);
-
-        fetch('/', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: new URLSearchParams(formData as any).toString()
-        })
-            .then((response) => {
-                if (response.ok) {
-                    setIsSubmitted(true);
-                } else {
-                    alert('Form submission failed: ' + response.statusText);
-                }
-            })
-            .catch((error) => alert('Form submission error: ' + error));
-    }
-
     return (
         <form
             className={classNames(
@@ -60,11 +39,12 @@ export default function FormBlock(props) {
             method="POST"
             data-netlify="true"
             netlify-honeypot="bot-field"
-            onSubmit={handleSubmit}
         >
             <input type="hidden" name="form-name" value={elementId} />
             <p hidden>
-                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                <label>
+                    Don’t fill this out if you're human: <input name="bot-field" />
+                </label>
             </p>
             <div
                 className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
