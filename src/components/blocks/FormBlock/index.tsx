@@ -31,10 +31,17 @@ export default function FormBlock(props) {
             const form = formRef.current;
             const formData = new FormData(form);
 
+            // Create URLSearchParams manually to handle TypeScript typing issues
+            const params = new URLSearchParams();
+            for (const [key, value] of formData.entries()) {
+                // Convert FormDataEntryValue to string
+                params.append(key, value.toString());
+            }
+
             const response = await fetch('/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString()
+                body: params.toString()
             });
 
             if (response.ok) {
